@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+        <h2>Let's Connect</h2>
+        <p>Whether you have a question, want to start a project, or simply want to connect.</p>
+        <p>Feel free to send me a message in the contact form.</p>
+    </div>
+
+    <div class="right-panel">
+        <h2>Contact Me</h2>
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Name *">
+                <small class="error"></small>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email *">
+                <small class="error"></small>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Message *"></textarea>
+                <small class="error"></small>
+            </div>
+            <button type="submit">SUBMIT</button>
+            <p id="success" class="success"></p>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
