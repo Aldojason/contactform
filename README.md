@@ -8,13 +8,18 @@ A **contact form** with **client-side validation** for name, email, and message 
   - Name  
   - Email  
   - Message  
-  - Submit button  
-- **CSS Styling** for a clean and responsive UI  
+  - Submit button
+  -  
+- **CSS Styling** for a clean and responsive UI
+- 
 - **JavaScript Validation** to check:
   - All fields are filled  
-  - Email is in valid format (using regex)  
-- **Error messages** shown dynamically below inputs  
-- **Success message** displayed on valid submission  
+  - Email is in valid format (using regex)
+  -  
+- **Error messages** shown dynamically below inputs
+-  
+- **Success message** displayed on valid submission
+- 
 - **Prevents form submission** if validation fails  
 
 ## 📂 Technologies Used  
